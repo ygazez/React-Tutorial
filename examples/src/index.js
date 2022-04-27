@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-const date = new Date(12,1,1,20);
+const date = new Date();
 const currenttime = date.getHours();
 
 let greeting;
